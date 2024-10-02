@@ -1,0 +1,47 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# production
+/build
+dist/
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Archivos de configuración de Visual Studio
+.vs/
+*.sln
+*.user
+*.suo
+
+# Archivos de build de .NET
+bin/
+obj/
+*.dll
+*.exe
+*.pdb
+
+# Archivos de configuración de ASP.NET
+appsettings*.json
+**/Properties/launchSettings.json
+
+# Otros archivos de sistema
+.DS_Store
+Thumbs.db
+
+
